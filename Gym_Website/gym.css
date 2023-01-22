@@ -1,0 +1,123 @@
+
+/* just for sample tamplate */
+p{
+    body {
+        font-family: 'Baloo Bhai';font-size: 25px;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('trn.jpg'); 
+        /* position: absolute; */
+        
+        }
+
+.left{
+    display: inline-block;
+/* border: 5px solid aqua; */
+/* position: absolute; */
+left: 2px;
+top: 20px;
+
+}
+.left img{
+    width: 150px;
+}
+.left div{
+    text-align: center;
+}
+.right{
+    position: absolute;
+    right: 34px;
+
+    top: 20px;
+    display:  inline-block;
+/* border: 5px solid red; */
+}
+
+.mid{
+    
+display: inline-block;
+width: 800px;
+margin: 20px 300px;
+
+border: 2px solid  yellow;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration:dotted;
+    padding: 34px;
+}
+.navbar li a:hover,.navbar li a.active{
+    
+    text-decoration:underline;
+    color: blanchedalmond;
+}
+
+.btn{
+    font-family: 'Baloo Bhai';font-size: 22px;
+    margin: 0px 9px;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px 20px;
+    border: 15px;
+    border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.btnn{
+    font-family: 'Baloo Bhai';
+    font-size: 22px;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px 20px;
+    border: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: antiquewhite;
+}
+.btnn:hover{
+    background-color: antiquewhite;
+}
+.bodyy{
+    color:whitesmoke ;
+    border: 2px solid gainsboro;
+    /* background-color: aliceblue; */
+    margin 5px 10px;
+    width: 33%;
+    border-radius: 1px;
+
+}
+
+.form-group input{
+    font-family: 'Baloo Bhai';
+  text-align: center;
+display: block;
+width: 258px;
+margin: 3px auto;
+font-size: 25px;
+border-radius: 15px;
+
+}
+
+.bodyy h2{
+    text-align: center;
+}
+
+.bodyy button{
+    display: block;
+    text-align:center;
+    width: 600px;
+}
+
+}
